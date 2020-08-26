@@ -1,0 +1,74 @@
+<html>
+ <head>
+   <title>my first web page</title>
+</head>
+
+  <link rel ="stylesheet" type="text/css"  href="bootstrap.css">
+  <link rel ="stylesheet" type="text/css"  href="gallery.css">
+
+<script src ="http://code.jqeury.com/jquery-1.11.13.min.js"></script>
+
+</head>
+<body>
+
+   <a href ="index2.html">Home</a>
+    &nbsp;
+   <a href ="about.html">about</a>
+    &nbsp;
+  <a href = "contactme.html">contactme</a>   
+   <hr></hr>
+   <div class ="container">
+        <h1>Image gallery</h1>
+        <h1>This is a heading</h1>
+    <div class ="row">
+        <div class ="col-md-3">
+              <img class ="img-crop"
+              src ="img_1.jpg"
+              alt ="sunny"  
+          </div>
+
+            <div class ="col-md-3">
+             <img class ="img-crop"
+              src ="img_2.jpg"
+              alt ="tree"
+            </div>
+   
+          <div class ="col-md-3">
+             <img class ="img-crop"
+              src ="img_3.jpg"
+              alt="mango"
+          </div>
+	
+            <div class ="col-md-3">
+             <img class ="img-crop"
+              src ="img_4.jpg"
+              alt ="hello"
+            </div>
+      </div>
+  
+	   <div class ="row">
+           <div class ="col-md-12">
+              <img id="bigimg"
+	           class ="img-crop"
+	             src ="img_5.jpg"
+	              alt="bilding"
+            </div>
+	   </div>
+	</div>
+</div>
+	 
+<script>
+  $(".crop-img").click(function(){
+      $(#bigimg).attr('src'
+	    $(this).attr(src));
+  )};
+
+</script>
+
+
+<p class ="id">&#128520;</p>
+
+
+
+</body>
+</html>

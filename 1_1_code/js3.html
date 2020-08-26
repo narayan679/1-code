@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+<title>prompt</title>
+</head>
+
+<script>
+function myprompt(){
+
+var person = prompt("please enter your name","sunny");
+if(person!=""){
+document.getElementById("demo").innerHTML =
+"Hello" + person + " !How are you today?";
+
+  }
+  else 
+  {
+    alert("Hey,no input");
+  }
+}
+</script>
+<p id ="demo"></p>
+<p style="color:red">this is  a test </p>
+
+<button onclick = "myprompt()">click me </button>
+
+
+
+<body>
+</html>

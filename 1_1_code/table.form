@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<title>js</title>
+
+<body>
+
+  <form id ="#">
+  <div id ="fullpage">
+  
+     <h1>make a order</h1>
+  
+        <table border = "0">
+		<tr>
+		<td class ="label_col">FirstName </td>
+		<td class ="input_col"><input name  ="firstname" id ="firstname"></td>
+        <td class ="feedback_col"><span id ="firstnameprompt">&nbsp </td>
+        </tr>
+		<tr>
+		<td class ="label_col">lastName </td>
+		<td class ="input_col"><input name  ="lastName" id ="firstname"></td>
+        <td class ="feedback_col"><span id ="lastnameprompt">&nbsp </td>
+        </tr>
+		<td class ="label_col">phonenumber </td>
+		<td class ="input_col"><input name  ="phone" id ="phone"></td>
+        <td class ="feedback_col"><span id ="phoneprompt">xx-xx-xx-xx</td>
+        </tr>
+		
+		</div>
+
+
+
+
+
+
+
+    </form>
+   </body>
+</html>

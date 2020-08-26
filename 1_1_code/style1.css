@@ -1,0 +1,31 @@
+body{
+background-color: blie;
+
+}
+h1{
+color:navy;
+margin-left:20px;
+
+}
+
+.testclass{
+color:red;
+font-size:300%;
+
+
+}
+
+#output{
+	font-size:red;
+	padding:20px;
+	
+	
+}
+#google{
+	font-right:30px;
+	padding:30px;
+	margin-left:35px;
+	opcity:0.4;
+	
+	
+}

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>on blur event page</title>
+</head>
+<script>
+function checkField1() {
+
+var field = document.getElementById("field1").value;
+if(field1.length<5)
+document.getElementById(message1).innerHTML = "Too short";
+
+else
+document.getElementById(message1).innerHTML ="This is long enough";
+
+}
+
+function checkField2() {
+
+var field = document.getElementById("field2").value;
+if(field2 ! = "")//! == not equal to
+document.getElementById(message2).innerHTML = "input accepted";
+
+else
+document.getElementById(message2).innerHTML ="you must provide input";
+
+}
+
+
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+<p>javascript onblur event</p>
+
+<input type ="field1" type="text" onblur="checkField1();"/> <span id = "message1"></span>
+<input type ="field2" type="text" onblur="checkField2();"/><span id ="message2"></span>
+<input type ="field3" type="text" /><span id ="message3"></span>
+
+
+</body>
+</html>
+
+
